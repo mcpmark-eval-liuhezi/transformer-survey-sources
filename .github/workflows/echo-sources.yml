@@ -1,0 +1,11 @@
+name: Echo survey sources
+
+on:
+  workflow_dispatch:
+
+jobs:
+  echo-sources:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo confirmation
+        run: echo 'survey sources collected'
